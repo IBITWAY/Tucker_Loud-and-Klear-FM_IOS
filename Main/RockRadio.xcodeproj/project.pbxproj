@@ -833,14 +833,14 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SVBPNQ69V7;
 				INFOPLIST_FILE = "$(SRCROOT)/RockRadio/Resources/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "MAS Radio Houston";
+				INFOPLIST_KEY_CFBundleDisplayName = "Loud and Klear FM";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.streamerz.mas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.streamerz.loud;
 				PRODUCT_NAME = "Unity Live Radio";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = MasH_Dev;
@@ -865,14 +865,14 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SVBPNQ69V7;
 				INFOPLIST_FILE = "$(SRCROOT)/RockRadio/Resources/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "MAS Radio Houston";
+				INFOPLIST_KEY_CFBundleDisplayName = "Loud and Klear FM";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.streamerz.mas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.streamerz.loud;
 				PRODUCT_NAME = "Unity Live Radio";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = MasH_Diss;

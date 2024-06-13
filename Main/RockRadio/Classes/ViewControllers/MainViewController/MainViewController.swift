@@ -59,7 +59,7 @@ class MainViewController: UIViewController, UNUserNotificationCenterDelegate {
     let stations = [Station(name: appName,
                             detail: "Are you ready to Folk?",
                             url: URL(string: radioURL)!,
-                            image: #imageLiteral(resourceName: "MAS Radio Houston"))]
+                            image: #imageLiteral(resourceName: "square loud and klear logo "))]
     
     var selectedIndex = 0 {
         didSet {

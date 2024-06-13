@@ -10,7 +10,7 @@ import UIKit
 
 
 
-var appName = "MAS Radio Houston"
+var appName = "Loud and Klear FM"
 
 var titleText = "Hello!"
 var messageText = "Do not to forget to listen to the radio today!"
@@ -34,6 +34,6 @@ var schedule = "https://irp.cdn-website.com/700797eb/files/uploaded/CDR%20Schedu
 
 var aboutText = "FM RADIO is a Christian broadcast station which preach and teaches end-time messages, Inspirational songs, live worships and other programs that builds up the Christian.\n\nRexvan Radio is a nonprofit organization that was formally launched on the 1st of May 2020, in Atlanta Georgia, USA."
 
-var radioURL = "http://167.114.156.116:8083/stream"
+var radioURL = "https://listen3.myradio24.com/djsnoop"
 
 
