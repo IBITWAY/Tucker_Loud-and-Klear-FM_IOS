@@ -10,7 +10,7 @@ import UIKit
 
 
 
-var appName = "Loud and Klear FM"
+var appName = "Loudandklearfm"
 
 var titleText = "Hello!"
 var messageText = "Do not to forget to listen to the radio today!"

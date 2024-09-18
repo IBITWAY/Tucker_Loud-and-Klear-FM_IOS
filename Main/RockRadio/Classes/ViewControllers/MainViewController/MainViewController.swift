@@ -59,7 +59,7 @@ class MainViewController: UIViewController, UNUserNotificationCenterDelegate {
     let stations = [Station(name: appName,
                             detail: "Are you ready to Folk?",
                             url: URL(string: radioURL)!,
-                            image: #imageLiteral(resourceName: "square loud and klear logo "))]
+                            image: #imageLiteral(resourceName: "loud and klear logo"))]
     
     var selectedIndex = 0 {
         didSet {
@@ -105,7 +105,7 @@ class MainViewController: UIViewController, UNUserNotificationCenterDelegate {
         selectedIndex = 0
         player.volume = 100
         
-        addGradientLayer()
+//        addGradientLayer()
         setNeumorphicButtons()
         setupPlayerView()
         setupHandleRadialLayer()
@@ -533,7 +533,7 @@ class MainViewController: UIViewController, UNUserNotificationCenterDelegate {
         let generator = UIImpactFeedbackGenerator(style: .medium)
         generator.impactOccurred()
         
-        let text = "Hello! I listen to the \(appName) 📲 https://apps.apple.com/us/app/mas-radio-houston/id6477888534\n\n"
+        let text = "Hello! I listen to the \(appName) 📲 https://apps.apple.com/us/app/loudandklearfm/id6621244371\n\n"
         let shareAll = [text] as [Any]
         let activityViewController = UIActivityViewController(activityItems: shareAll, applicationActivities: nil)
         activityViewController.popoverPresentationController?.sourceView = self.view

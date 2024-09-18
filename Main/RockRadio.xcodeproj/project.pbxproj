@@ -827,23 +827,23 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "RockRadio/Unity Live Radio.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SVBPNQ69V7;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = WRT49XJ773;
 				INFOPLIST_FILE = "$(SRCROOT)/RockRadio/Resources/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Loud and Klear FM";
+				INFOPLIST_KEY_CFBundleDisplayName = Loudandklearfm;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.5;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.streamerz.loud;
 				PRODUCT_NAME = "Unity Live Radio";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = MasH_Dev;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Loud and Klear FM_Diss";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -863,19 +863,19 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = SVBPNQ69V7;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = WRT49XJ773;
 				INFOPLIST_FILE = "$(SRCROOT)/RockRadio/Resources/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Loud and Klear FM";
+				INFOPLIST_KEY_CFBundleDisplayName = Loudandklearfm;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.5;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.streamerz.loud;
 				PRODUCT_NAME = "Unity Live Radio";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = MasH_Diss;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Loud and Klear FM_Diss";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
