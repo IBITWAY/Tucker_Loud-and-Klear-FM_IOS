@@ -51,7 +51,11 @@ public final class LGSideMenuWrapperView: UIView {
 
     public override func layoutSublayers(of layer: CALayer) {
         guard canLayoutSubviews else { return }
-        super.layoutSublayers(of: layer)
+        if #available(iOS 10.0, *) {
+            super.layoutSublayers(of: layer)
+        } else {
+            // Fallback on earlier versions
+        }
     }
 
 }

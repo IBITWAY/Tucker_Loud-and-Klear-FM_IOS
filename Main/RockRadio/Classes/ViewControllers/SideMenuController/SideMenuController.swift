@@ -26,7 +26,8 @@ class SideMenuController: UIViewController, MFMailComposeViewControllerDelegate 
     @IBOutlet var tableView:UITableView!
     var socialArray = [[String:Any]]()
     @IBOutlet var gifImageView: UIImageView!
-
+    let userDefaults = UserDefaults.standard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -286,6 +287,7 @@ class SideMenuController: UIViewController, MFMailComposeViewControllerDelegate 
                         if isRadio {
                             if let url = data["stream"] as? String {
                                 radioURL = url
+                                self.userDefaults.set(url, forKey: "streamURL")
                             }
                         }
                     }

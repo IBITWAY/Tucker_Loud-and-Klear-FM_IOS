@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		3AE2DB4FC4079AC93E6406C5 /* Pods_RockRadio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14202B807D785B7BE09DA119 /* Pods_RockRadio.framework */; };
 		561BC3A42D4D3DCB2543DA1D /* Pods_RockRadioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4C47D5E2A9F9C02D50B259 /* Pods_RockRadioTests.framework */; };
+		5F0C771D2F2BE97500E49931 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5F0C771C2F2BE97500E49931 /* FirebaseAnalytics */; };
+		5F0C771F2F2BE97500E49931 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5F0C771E2F2BE97500E49931 /* FirebaseCore */; };
+		5F0C77212F2BE97500E49931 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5F0C77202F2BE97500E49931 /* FirebaseCrashlytics */; };
+		5F0C77232F2BE97500E49931 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5F0C77222F2BE97500E49931 /* FirebaseDatabase */; };
+		5F0C77252F2BE97500E49931 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5F0C77242F2BE97500E49931 /* FirebaseFirestore */; };
+		5F0C77272F2BE97500E49931 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 5F0C77262F2BE97500E49931 /* FirebaseMessaging */; };
+		5F0C77292F2BE97500E49931 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5F0C77282F2BE97500E49931 /* FirebaseStorage */; };
 		5F16FA4229F08985003719BD /* AppDelegate+CarPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F16FA4129F08985003719BD /* AppDelegate+CarPlay.swift */; };
 		5F2D79FF2AE13E3F0036F5D6 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D79FD2AE13E3F0036F5D6 /* PushNotificationManager.swift */; };
 		5F2D7A002AE13E400036F5D6 /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D79FE2AE13E3F0036F5D6 /* PushNotificationSender.swift */; };
@@ -125,7 +132,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F0C77232F2BE97500E49931 /* FirebaseDatabase in Frameworks */,
+				5F0C771D2F2BE97500E49931 /* FirebaseAnalytics in Frameworks */,
+				5F0C77272F2BE97500E49931 /* FirebaseMessaging in Frameworks */,
+				5F0C77212F2BE97500E49931 /* FirebaseCrashlytics in Frameworks */,
+				5F0C771F2F2BE97500E49931 /* FirebaseCore in Frameworks */,
+				5F0C77292F2BE97500E49931 /* FirebaseStorage in Frameworks */,
 				3AE2DB4FC4079AC93E6406C5 /* Pods_RockRadio.framework in Frameworks */,
+				5F0C77252F2BE97500E49931 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +489,9 @@
 				Base,
 			);
 			mainGroup = 74F643E224E30CD7004DD380;
+			packageReferences = (
+				5F0C771B2F2BE97500E49931 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 74F643EC24E30CD7004DD380 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -530,9 +547,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RockRadio/Pods-RockRadio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RockRadio/Pods-RockRadio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -613,9 +634,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RockRadio-RockRadioUITests/Pods-RockRadio-RockRadioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RockRadio-RockRadioUITests/Pods-RockRadio-RockRadioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -834,12 +859,12 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = WRT49XJ773;
 				INFOPLIST_FILE = "$(SRCROOT)/RockRadio/Resources/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Loudandklearfm;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.streamerz.loud;
 				PRODUCT_NAME = "Unity Live Radio";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -866,12 +891,12 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = WRT49XJ773;
 				INFOPLIST_FILE = "$(SRCROOT)/RockRadio/Resources/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Loudandklearfm;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.streamerz.loud;
 				PRODUCT_NAME = "Unity Live Radio";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1012,6 +1037,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F0C771B2F2BE97500E49931 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F0C771C2F2BE97500E49931 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F0C771B2F2BE97500E49931 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5F0C771E2F2BE97500E49931 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F0C771B2F2BE97500E49931 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		5F0C77202F2BE97500E49931 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F0C771B2F2BE97500E49931 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		5F0C77222F2BE97500E49931 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F0C771B2F2BE97500E49931 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		5F0C77242F2BE97500E49931 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F0C771B2F2BE97500E49931 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5F0C77262F2BE97500E49931 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F0C771B2F2BE97500E49931 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		5F0C77282F2BE97500E49931 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F0C771B2F2BE97500E49931 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74F643E324E30CD7004DD380 /* Project object */;
 }

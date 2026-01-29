@@ -91,6 +91,7 @@ class MainViewController: UIViewController, UNUserNotificationCenterDelegate {
     var gradientLayer = CAGradientLayer()
     
     var result: NSDictionary!
+    let userDefaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -100,6 +101,10 @@ class MainViewController: UIViewController, UNUserNotificationCenterDelegate {
         self.socialData()
         self.navigationController?.setNavigationBarHidden(true, animated: true)
         self.navigationController?.isNavigationBarHidden = true
+        
+        if let streamURL = userDefaults.value(forKey: "streamURL") as? String {
+            radioURL = streamURL
+        }
         
         player.delegate = self
         selectedIndex = 0

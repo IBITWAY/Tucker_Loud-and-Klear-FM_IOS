@@ -7,12 +7,12 @@ target 'RockRadio' do
 
   
 #  pod 'FirebaseAnalytics'
-  pod 'FirebaseStorage'
-  pod 'FirebaseMessaging'
-  pod 'FirebaseDatabase'
-  pod 'FirebaseAuth'
-  pod 'FirebaseFirestore'
-  pod 'FirebaseRemoteConfig'
+#  pod 'FirebaseStorage'
+#  pod 'FirebaseMessaging'
+#  pod 'FirebaseDatabase'
+#  pod 'FirebaseAuth'
+#  pod 'FirebaseFirestore'
+#  pod 'FirebaseRemoteConfig'
   
 #    pod 'Firebase/Core'
 #    pod 'Firebase/Storage'
